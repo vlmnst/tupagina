@@ -1,7 +1,6 @@
 import Nav from "./components/nav"
 import bgvideo from "./assets/bgvideo.mp4"
 import Card from "./components/card"
-import img from "./assets/img.png"
 function App() {
 
 
@@ -11,7 +10,7 @@ function App() {
     <Nav />
     </div>
     <div className=" items-center min-h-screen relative flex flex-col  justify-center overflow-hidden ">
-      <div className="relative z-10 p-5 text-sm m-16 text-center bg-opacity-95 text-gray-900 bg-white rounded-md transform -translate-y-44 sm:-translate-y-56 lg:w-96 lg:text-base"> 
+      <div className="relative z-10 p-5 text-sm m-16 text-center bg-opacity-95 text-white bg-gradient-to-tr from-fuchsia-800 to-pink-400 rounded-md transform -translate-y-44 sm:-translate-y-56 lg:w-96 lg:text-base"> 
       Trabajamos para que puedas mostrar tus productos, tu negocio, tu calidad, tu comunidad, de la manera mas <strong>sencilla y transparente. </strong> 
       <br />
       Aunamos tu vision y objetivos en una página para que puedas compartir,
@@ -28,7 +27,7 @@ function App() {
 
       <div className=" flex flex-col items-center translate-y-4  sm:flex-row  sm:items-start " >
       <span className="text-white text-xl uppercase sm:hidden "><strong>Beneficios</strong></span>
-      <div className="flex flex-col sm:flex-row sm:justify-center ">
+      <div className="flex flex-col sm:flex-row sm:justify-center mr-10 ml-10 ">
         <Card text="¿Quieres que tu empresa tenga una presencia en línea sólida y profesional? ¿Estás buscando nuevas formas de llegar a más clientes potenciales y aumentar las ventas? Una página web puede ser la solución perfecta para ti."
               title="Crecimiento"/>
         <Card text="Una página web te permite llegar a un público mucho más amplio que cualquier otro medio tradicional. Esto significa que puedes alcanzar a clientes potenciales en cualquier parte del mundo, las 24 horas del día, los 7 días de la semana. Además, una página web te permite mostrar a tus clientes todo lo que tu empresa ofrece de manera clara y concisa."
